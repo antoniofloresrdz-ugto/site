@@ -1,4 +1,4 @@
-const htmlToInsert = `
+const htmlToInsert1 = `
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -9,10 +9,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 `;
-document.head.insertAdjacentHTML('beforeend', htmlToInsert);
+document.head.insertAdjacentHTML('beforeend', htmlToInsert1);
 
 
-const htmlToInsert = `
+const htmlToInsert2 = `
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5ZLNV3V"
@@ -20,4 +20,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 `;
-document.head.insertAdjacentHTML('beforebegin', htmlToInsert);
+document.body.insertAdjacentHTML('beforebegin', htmlToInsert2);
