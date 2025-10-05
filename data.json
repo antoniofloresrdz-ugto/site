@@ -1,0 +1,196 @@
+{
+    "store": {
+        "name": "Tienda TecMX",
+        "logo_text": "TecMX",
+        "address": "Guadalajara, Jalisco, México",
+        "phone": "+52 33 1234 5678",
+        "email": "contacto@tecmx.example",
+        "socials": {
+            "facebook": "https://facebook.com/tecmx",
+            "instagram": "https://instagram.com/tecmx",
+            "twitter": "https://twitter.com/tecmx"
+        },
+        "copyright": "© 2025 Tienda TecMX"
+    },
+    "home": {
+        "title": "Bienvenido a Tienda TecMX",
+        "subtitle": "Encuentra la computadora ideal para ti",
+        "banners": [
+            "images/banner1.png",
+            "images/banner2.png",
+            "images/banner3.png"
+        ]
+    },
+    "products": [
+        {
+            "id": "dispositivo-1",
+            "name": "Computadora 1",
+            "price": "$799",
+            "images": [
+                "images/pc1.png"
+            ],
+            "short_description": "Rendimiento sólido para uso diario - modelo 1",
+            "characteristics": [
+                "Procesador: Intel Core i5",
+                "RAM: 8 GB",
+                "Almacenamiento: 512 GB SSD",
+                "Pantalla: 15.6\" FHD",
+                "GPU: Integrada"
+            ],
+            "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            "comments": [
+                {
+                    "user": "María",
+                    "text": "Excelente equipo, buen rendimiento.",
+                    "date": "2025-09-10"
+                },
+                {
+                    "user": "Carlos",
+                    "text": "Buena relación calidad-precio.",
+                    "date": "2025-08-21"
+                },
+                {
+                    "user": "Ana",
+                    "text": "La batería dura bastante.",
+                    "date": "2025-07-05"
+                }
+            ]
+        },
+        {
+            "id": "dispositivo-2",
+            "name": "iMac",
+            "price": "$899",
+            "images": [
+                "images/pc2.png"
+            ],
+            "short_description": "Rendimiento sólido para uso diario - modelo 2",
+            "characteristics": [
+                "Procesador: Intel Core i5",
+                "RAM: 8 GB",
+                "Almacenamiento: 512 GB SSD",
+                "Pantalla: 15.6\" FHD",
+                "GPU: Integrada"
+            ],
+            "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            "comments": [
+                {
+                    "user": "María",
+                    "text": "Excelente equipo, buen rendimiento.",
+                    "date": "2025-09-10"
+                },
+                {
+                    "user": "Carlos",
+                    "text": "Buena relación calidad-precio.",
+                    "date": "2025-08-21"
+                },
+                {
+                    "user": "Ana",
+                    "text": "La batería dura bastante.",
+                    "date": "2025-07-05"
+                }
+            ]
+        },
+        {
+            "id": "dispositivo-3",
+            "name": "Computadora 3",
+            "price": "$999",
+            "images": [
+                "images/pc3.png"
+            ],
+            "short_description": "Rendimiento sólido para uso diario - modelo 3",
+            "characteristics": [
+                "Procesador: Intel Core i5",
+                "RAM: 8 GB",
+                "Almacenamiento: 512 GB SSD",
+                "Pantalla: 15.6\" FHD",
+                "GPU: Integrada"
+            ],
+            "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            "comments": [
+                {
+                    "user": "María",
+                    "text": "Excelente equipo, buen rendimiento.",
+                    "date": "2025-09-10"
+                },
+                {
+                    "user": "Carlos",
+                    "text": "Buena relación calidad-precio.",
+                    "date": "2025-08-21"
+                },
+                {
+                    "user": "Ana",
+                    "text": "La batería dura bastante.",
+                    "date": "2025-07-05"
+                }
+            ]
+        },
+        {
+            "id": "dispositivo-4",
+            "name": "Computadora 4",
+            "price": "$1099",
+            "images": [
+                "images/pc4.png"
+            ],
+            "short_description": "Rendimiento sólido para uso diario - modelo 4",
+            "characteristics": [
+                "Procesador: Intel Core i5",
+                "RAM: 8 GB",
+                "Almacenamiento: 512 GB SSD",
+                "Pantalla: 15.6\" FHD",
+                "GPU: Integrada"
+            ],
+            "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            "comments": [
+                {
+                    "user": "María",
+                    "text": "Excelente equipo, buen rendimiento.",
+                    "date": "2025-09-10"
+                },
+                {
+                    "user": "Carlos",
+                    "text": "Buena relación calidad-precio.",
+                    "date": "2025-08-21"
+                },
+                {
+                    "user": "Ana",
+                    "text": "La batería dura bastante.",
+                    "date": "2025-07-05"
+                }
+            ]
+        },
+        {
+            "id": "dispositivo-5",
+            "name": "Computadora 5",
+            "price": "$1199",
+            "images": [
+                "images/pc5.png"
+            ],
+            "short_description": "Rendimiento sólido para uso diario - modelo 5",
+            "characteristics": [
+                "Procesador: Intel Core i5",
+                "RAM: 8 GB",
+                "Almacenamiento: 512 GB SSD",
+                "Pantalla: 15.6\" FHD",
+                "GPU: Integrada"
+            ],
+            "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            "comments": [
+                {
+                    "user": "María",
+                    "text": "Excelente equipo, buen rendimiento.",
+                    "date": "2025-09-10"
+                },
+                {
+                    "user": "Carlos",
+                    "text": "Buena relación calidad-precio.",
+                    "date": "2025-08-21"
+                },
+                {
+                    "user": "Ana",
+                    "text": "La batería dura bastante.",
+                    "date": "2025-07-05"
+                }
+            ]
+        }
+    ]
+}

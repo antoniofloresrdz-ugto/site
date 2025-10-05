@@ -1,33 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T5ZLNV3V');</script>
-    <!-- End Google Tag Manager -->
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style type="text/css">
-        body {
-            background-color: #ddd;
-        }
-    </style>    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inicio - Tienda TecMX</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="home">
+<header class="header">
+  <div class="logo">
+    <div class="mark" id="logo-text">Logo</div>
+    <div>
+      <div id="store-name">Tienda</div>
+      <div style="font-size:13px" id="store-contact">Contacto</div>
+    </div>
+  </div>
+  <nav class="nav">
+    <a href="index.html">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+  </nav>
+</header>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5ZLNV3V"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<main class="container">
+  <section class="hero">
+    <h1 id="home-title">Bienvenido a Tienda TecMX</h1>
+    <p>Encuentra la computadora ideal para ti</p>
+    <div class="slider" aria-hidden="false" style="margin-top:12px">
+      <div class="slides"></div>
+    </div>
+  </section>
 
-  <center>
-    <h1>Hola a todos</h1>
-  </center>
+  <section>
+    <h2>Catálogo</h2>
+    <div id="catalog" class="catalog"></div>
+  </section>
+</main>
 
+<footer class="footer">
+  <div id="copyright"></div>
+  <div id="socials"></div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
